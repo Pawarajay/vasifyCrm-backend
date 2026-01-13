@@ -22,13 +22,14 @@ const projectRoutes = require("./routes/projects");
 const app = express();
 const PORT = process.env.PORT || 5000;
 const WEBSITE_URL = "https://vasifytech.com";
-// const FRONTEND_URL = (process.env.FRONTEND_URL || " https://crm-new.vasifytech.com").replace(/\/$/, '');
-const FRONTEND_URL = (process.env.FRONTEND_URL || " http://localhost:3000").replace(/\/$/, '');
+const FRONTEND_URL = (process.env.FRONTEND_URL || " https://vasify-crm-frontend-v444.vercel.app/").replace(/\/$/, '');
+// const FRONTEND_URL = (process.env.FRONTEND_URL || " http://localhost:3000").replace(/\/$/, '');
 
 const allowedOrigins = [
   FRONTEND_URL,
   'http://localhost:3000',
    'https://crm-new.vasifytech.com',
+  'https://vasify-crm-frontend-v444.vercel.app',
   WEBSITE_URL,
 ];
 
