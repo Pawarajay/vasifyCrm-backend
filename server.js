@@ -30,6 +30,7 @@ const allowedOrigins = [
   'http://localhost:3000',
    'https://crm-new.vasifytech.com',
   'https://vasify-crm-frontend-v444.vercel.app',
+  'https://vasify-crm-frontend-v444-2msg7rm0p-pawarajays-projects.vercel.app',
   WEBSITE_URL,
 ];
 
