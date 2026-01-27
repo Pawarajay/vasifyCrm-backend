@@ -1,0 +1,18 @@
+# Application settings
+app_name: vasifyCRM
+app_port: 8005
+health_check_path: "/"
+env: development
+
+# Domain configuration
+domain: crm-api.vasifytech.com
+
+# Target machine (must match inventory.yml)
+target_host: production
+
+# SSL settings
+ssl_email: yogendra@vasifytech.com
+
+# Docker registry (GitLab)
+registry: registry.gitlab.com
+registry_image: registry.gitlab.com/vasify/vasify-docker-registry
