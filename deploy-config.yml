@@ -1,8 +1,8 @@
 # Application settings
-app_name: vasifyCRM
+app_name: vasify-crm-backend
 app_port: 8005
 health_check_path: "/"
-env: development
+env: production
 
 # Domain configuration
 domain: crm-api.vasifytech.com
