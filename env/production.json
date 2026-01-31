@@ -1,0 +1,11 @@
+{
+  "NODE_ENV": "production",
+  "DB_HOST": "172.31.4.154",
+  "DB_USER": "vt_crm_app",
+  "DB_PASSWORD": "vt_CRM@20260131",
+  "DB_NAME": "vasifytech",
+  "JWT_SECRET": "4f6a9c1d3e8b4a2f8c9d0e1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u",
+  "JWT_EXPIRES_IN": "1d",
+  "FRONTEND_URL": "https://crm-new.vasifytech.com"
+}
+

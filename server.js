@@ -1,7 +1,8 @@
-
+process.env.NODE_ENV = process.env.NODE_ENV || "development";
 const express = require("express");
 const cors = require("cors");
 require("dotenv").config();
+Object.assign(process.env, require(`./env/${process.env.NODE_ENV}.json`));
 
 const { testConnection } = require("./config/database");
 const { initializeScheduler } = require("./services/scheduler");
