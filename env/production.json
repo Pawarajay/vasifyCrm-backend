@@ -1,6 +1,6 @@
 {
   "NODE_ENV": "production",
-  "DB_HOST": "172.31.4.154",
+  "DB_HOST": "13.203.39.243",
   "DB_USER": "vt_crm_app",
   "DB_PASSWORD": "vt_CRM@20260131",
   "DB_NAME": "vasifytech",
