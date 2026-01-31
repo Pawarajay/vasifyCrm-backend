@@ -2,7 +2,7 @@
   "DB_HOST": "13.203.39.243",
   "DB_USER": "ajay",
   "DB_PASSWORD": "vt_dev_db@ajay",
-  "DB_NAME": "vasifytech_dev",
+  "DB_NAME": "vasify_crm_new_dev",
   "JWT_SECRET": "abc123defghjklpoi70",
   "JWT_EXPIRES_IN": "1d",
   "FRONTEND_URL": "",
