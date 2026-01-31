@@ -34,7 +34,7 @@ pipeline {
               env.SSL_EMAIL      = cfg.ssl_email
               env.REGISTRY       = cfg.registry
               env.REGISTRY_IMAGE = cfg.registry_image
-              env.DOCKER_IMAGE   = "${cfg.registry_image}:${BUILD_NUMBER}"
+              env.DOCKER_IMAGE   = "${cfg.registry_image}:${cfg.app_name}-${BUILD_NUMBER}"
             }
           }
         }
