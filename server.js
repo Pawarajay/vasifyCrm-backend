@@ -12,6 +12,7 @@ const usersRouter = require("./routes/users");
 const customerRoutes = require("./routes/customers");
 const leadRoutes = require("./routes/leads");
 const publicLeadsRouter = require("./routes/public-leads");
+// const publicWebsiteLeadsRouter = require("./routes/public-website-leads"); //new
 const dealRoutes = require("./routes/deals");
 const taskRoutes = require("./routes/tasks");
 const invoiceRoutes = require("./routes/invoices");
@@ -19,11 +20,11 @@ const renewalRoutes = require("./routes/renewals");
 const whatsappRoutes = require("./routes/whatsapp");
 const reportRoutes = require("./routes/reports");
 const projectRoutes = require("./routes/projects");
+const whatsappWebhookRouter = require("./routes/whatsapp-webhook");
 
 const app = express();
 const PORT = process.env.PORT || 5000;
 const WEBSITE_URL = "https://vasifytech.com";
-// const FRONTEND_URL = (process.env.FRONTEND_URL || " https://vasify-crm-frontend-v444.vercel.app/").replace(/\/$/, '');
 const FRONTEND_URL = (process.env.FRONTEND_URL || "https://crm-new.vasifytech.com").replace(/\/$/, '');
 
 const allowedOrigins = [
@@ -107,6 +108,8 @@ app.use("/api/whatsapp", whatsappRoutes);
 app.use("/api/reports", reportRoutes);
 app.use("/api/projects", projectRoutes);
 app.use("/api/public", publicLeadsRouter);
+app.use("/api/whatsapp", whatsappWebhookRouter)
+// app.use("/api/public", publicWebsiteLeadsRouter);
 
 // Error handling middleware
 app.use((err, req, res, next) => {

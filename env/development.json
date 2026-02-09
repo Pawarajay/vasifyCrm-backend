@@ -6,5 +6,8 @@
   "JWT_SECRET": "abc123defghjklpoi70",
   "JWT_EXPIRES_IN": "1d",
   "FRONTEND_URL": "",
-  "NODE_ENV": "development"
+  "NODE_ENV": "development",
+   "WHATSAPP_API_TOKEN": "kliu2IuLezqOxzzIuOXipDYaFnxubQ",
+  "WHATSAPP_PHONE_NUMBER_ID": "+919769026133",
+  "ADMIN_PHONE_NUMBER": "918446802344,919769754446,919004694689"
 }

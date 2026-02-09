@@ -6,6 +6,11 @@
   "DB_NAME": "vasify_crm_new_prod",
   "JWT_SECRET": "4f6a9c1d3e8b4a2f8c9d0e1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u",
   "JWT_EXPIRES_IN": "1d",
-  "FRONTEND_URL": "https://crm-new.vasifytech.com"
+  "FRONTEND_URL": "https://crm-new.vasifytech.com",
+
+   "WHATSAPP_API_TOKEN": "kliu2IuLezqOxzzIuOXipDYaFnxubQ",
+  "WHATSAPP_PHONE_NUMBER_ID": "+919769026133",
+  "ADMIN_PHONE_NUMBER": "918446802344,919769754446,919004694689"
+
 }
 
